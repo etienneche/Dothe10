@@ -17,7 +17,7 @@ const User = props => (
 )
 export default () => (
   <Layout>
-    <div style={{ color: `teal` }}>
+    <div style={{ color: `black` }}>
 
 
       <Header headerText="Contact the Members" />
@@ -32,9 +32,26 @@ export default () => (
         avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
         excerpt="Co-funder / Web Developer of the game and active member since 2018."
       />
-
-
-
+      <User
+        username="Tom Rauch"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+        excerpt="Co-funder / Project manager of the game and active member since 2018."
+      />
+      <User
+        username="Alessio Accomodo"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+        excerpt="Co-funder / Project manager of the game and active member since 2018."
+      />
+      <User
+        username="Arnaud Chabert"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+        excerpt="active member since 2019. Fun fact Arnaud already been out of the club doing 100 push up, and did 10 more 20 minute later to come back in the club."
+      />
+      <User
+        username="Victor Campaci"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+        excerpt="active member since 2019."
+      />
 
 
       <p>Send us a message!</p>
