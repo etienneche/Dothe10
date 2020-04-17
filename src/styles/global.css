@@ -1,0 +1,11 @@
+html {
+  background-color: white;
+}
+h1 {
+  color: darkgrey;
+}
+
+a {
+  color: darkgrey;
+  text-shadow: none;
+}
